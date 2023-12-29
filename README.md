@@ -8,8 +8,9 @@ Both metadata-based and callgraph-based software composition analyses will produ
 To precisely detect whether the application is vulnerable, a more sophisticated 
 inter-procedural dataflow / taint analysis is required.
 
-Note that there is a test to demonstrate the vulnerability, here this test (and therefore the build with `mvn test`)
-fails. 
+Note that there is a proof-of-vulnerability test to demonstrate the vulnerability, this test (and therefore the build with `mvn test`)
+fails. See [https://github.com/scabench/jsonorg-tp1](https://github.com/scabench/jsonorg-tp1) for how the test works.
+
 
 ### Running Software Composition Analyses
 
