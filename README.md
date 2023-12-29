@@ -2,8 +2,7 @@
 
 The project contains a [json.org](https://mvnrepository.com/artifact/org.json/json/20220924) dependency with [CVE-2022-45688](https://nvd.nist.gov/vuln/detail/CVE-2022-45688).
 It does invoke the vulnerable class, but the input data is hardcoded
-and not suitable to trigger a DoS attack. I.e., no user-supplied input 
-data can be passed to the vulnerable class.
+and not suitable to trigger a DoS attack. The vulnerability can therefore not be exploited for a DoS attack.
 
 Both metadata-based and callgraph-based software composition analyses will produce a false positive.
 To precisely detect whether the application is vulnerable, a more sophisticated 
