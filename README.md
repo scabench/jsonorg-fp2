@@ -5,7 +5,7 @@ It does invoke the vulnerable class, but the input data is hardcoded
 and not suitable to trigger a DoS attack. I.e., no use supplied input 
 data can be passed to the vulnerable class.
 
-Both metadata-based and callgraph-based software composition analyses will produce false positives.
+Both metadata-based and callgraph-based software composition analyses will produce a false positive.
 To precisely detect whether the application is vulnerable, a more sophisticated 
 inter-procedural dataflow / taint analysis is required.
 
